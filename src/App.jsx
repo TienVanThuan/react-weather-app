@@ -4,11 +4,9 @@ import Home from '@/pages/Home';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors">
+    <div className="min-h-screen text-slate-600">
       <Navbar />
-      <main className="p-6">
-        <Home />
-      </main>
+      <Home />
     </div>
   );
 }

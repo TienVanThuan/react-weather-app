@@ -9,4 +9,14 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  // dùng cho ubuntu
+  server: {
+    host: 'localhost', // Đảm bảo Vite bind đúng hostname
+    hmr: {
+      host: 'localhost', // Cấu hình cho Hot Module Replacement
+    },
+    watch: {
+      usePolling: true, // Hỗ trợ theo dõi thay đổi file
+    },
+  },
 });
