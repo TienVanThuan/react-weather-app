@@ -1,0 +1,10 @@
+@use '../../styles/variables' as *;
+
+.btn {
+  background-color: rgb(var(--color-primary));
+  color: white;
+
+  &:hover {
+    opacity: 0.95;
+  }
+}

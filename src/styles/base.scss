@@ -1,0 +1,14 @@
+@use 'variables' as *;
+
+:root {
+  --font-family: #{$font-family};
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-family;
+}
