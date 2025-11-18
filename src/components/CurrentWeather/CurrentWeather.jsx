@@ -1,5 +1,5 @@
 import React from 'react';
-import { WindyStrong, Humidity } from '../Icon/Icon';
+import { WindyStrong, Humidity } from '../Icons/Icons';
 
 const CurrentWeather = () => {
   return (

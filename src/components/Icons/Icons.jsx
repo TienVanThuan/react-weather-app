@@ -19,3 +19,12 @@ export const Humidity = ({ width, height, color }) => (
     </g>
   </svg>
 );
+
+export const Location = ({ width, height, color }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} viewBox="0 0 24 24">
+    <g fill="none" stroke={color} strokeLinecap="round" strokeMiterlimit="10" strokeWidth="1.5">
+      <path d="M21.5 12h-2.111M12 2.5v2.111M2.5 12h2.111M12 21.5v-2.111m0 0A7.389 7.389 0 1 0 12 4.61a7.389 7.389 0 0 0 0 14.778Z"></path>
+      <path d="M12 16.222a4.222 4.222 0 1 0 0-8.444a4.222 4.222 0 0 0 0 8.444Z"></path>
+    </g>
+  </svg>
+);
