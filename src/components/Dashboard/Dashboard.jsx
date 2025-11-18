@@ -5,7 +5,7 @@ import CurrentWeather from '../CurrentWeather/CurrentWeather';
 const Dashboard = () => {
   return (
     <MainLayout>
-      <p>ASDASD</p>
+      <CurrentWeather />
     </MainLayout>
   );
 };

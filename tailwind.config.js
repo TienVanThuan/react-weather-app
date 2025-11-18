@@ -8,6 +8,9 @@ export default {
         primary: 'rgb(var(--color-primary) / <alpha-value>)',
         secondary: '#9333ea',
       },
+      fontFamily: {
+        sans: ['Varela Round', 'sans-serif'],
+      },
     },
   },
   plugins: [],
